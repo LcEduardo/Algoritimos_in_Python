@@ -3,7 +3,7 @@ def pesquisa_binaria(lista, item):
     alto = len(lista) - 1
 
     while baixo <= alto:
-        meio = (baixo + alto) // 2  # Use integer division
+        meio = (baixo + alto) // 2 
         chute = lista[meio]
         if chute == item:
             return meio
@@ -16,5 +16,5 @@ def pesquisa_binaria(lista, item):
 
 minha_lista = [1, 3, 5, 7, 9]
 
-print(pesquisa_binaria(minha_lista, 9))  # Corrected: Added parentheses
-print(pesquisa_binaria(minha_lista, -1))  # Corrected: Added parentheses
+print(pesquisa_binaria(minha_lista, 9))  
+print(pesquisa_binaria(minha_lista, -1)) 
