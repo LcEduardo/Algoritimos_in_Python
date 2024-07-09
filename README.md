@@ -14,7 +14,7 @@ Baseado no livro **Entendendo Algoritmos** de *Aditya Y.Bhargava*.
     2. Quicksort
 5. CAP5 - Tabela Hash
 
-## CAP1: 
+## CAP1: Pesquisa Binária
 
 **Exemplo:** temos números de 1 a 100 e eu peço para você adivinhar um número. O que você faria?
 
