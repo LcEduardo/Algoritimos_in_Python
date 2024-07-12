@@ -1,36 +1,27 @@
-# implementando o algoritimo
+# implementando fila
 
 from collections import deque
 
-def pessoa_e_vendedora(nome):
-    return nome[-1] == 'y'
+fila = deque()
 
-grafo = {}
-grafo["voce"] = ["alice", "bob", "claire"]
-grafo["bob"] = ["anuj", "peggy"]
-grafo["alice"] = ["peggy"]
-grafo["claire"] = ["thom", "jonny"]
-grafo["anuj"] = []
-grafo["peggy"] = []
-grafo["thom"] = []
-grafo["jonny"] = []
+fila.append('A')
+fila.append('B')
+fila.append('C')
 
-def buscar(nome):
-    fila_de_busca = deque()
-    fila_de_busca += [nome]
-    # É assim que você rastreia quais pessoas você já pesquisou antes.
-    verificadas = set()
-    while fila_de_busca:
-        pessoa = fila_de_busca.popleft()
-        # Só pesquisa essa pessoa se você ainda não a pesquisou.
-        if pessoa in verificadas:
-            continue
-        if pessoa_e_vendedora(pessoa):
-            print(pessoa + " é um vendedor de mangas!")
-            return True
-        fila_de_busca += grafo[pessoa]
-        # Marca essa pessoa como pesquisada
-        verificadas.add(pessoa)
-    return False
+print("Fila após inserções:", fila)
 
-buscar("voce")
+primeiro = fila.popleft()
+print("Elemento removido:", primeiro)
+print("Fila após a remoção:", fila)
+
+fila.append('D')
+fila.append('E')
+
+print("Fila após mais inserções:", fila)
+
+segundo = fila.popleft()
+terceiro = fila.popleft()
+
+print("Elementos removidos:", segundo, terceiro)
+print("Fila final:", fila)
+
