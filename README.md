@@ -5,14 +5,15 @@ Baseado no livro **Entendendo Algoritmos** de *Aditya Y.Bhargava*.
 ## Prefácio:
 
  1. CAP1 - Pesquisa binária
- 2. CAP2 - Ordenação por Seleção
+ 2. CAP2 - Ordenação por seleção
  3. CAP3 - Recursão
     1. Recursão
     2. Pilha
 4. CAP4 - Quicksort
     1. Dividir para conquistar
     2. Quicksort
-5. CAP5 - Tabela Hash
+5. CAP5 - Tabela hash
+6. CAP6 - Pesquisa em largura
 
 ## CAP1: Pesquisa Binária
 
