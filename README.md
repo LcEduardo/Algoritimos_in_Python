@@ -1,4 +1,4 @@
-# Algoritimos em python
+# Algoritmos em python
 
 Baseado no livro **Entendendo Algoritmos** de *Aditya Y.Bhargava*.
 
@@ -38,3 +38,13 @@ Nesse capítulo, também analisamos uma estrutura de dados que é muito útil em
 Uma pilha é como uma lista de passos que devemos seguir. Pense que cada passo é empilhado um sobre o outro. O passo que estiver no topo será executado primeiro, seguido pelo próximo passo. Observe que a pilha segue o modelo LIFO (Last In, First Out). 
 
 Para mais informações, acesse: [Medium.com](https://medium.com/@lucase.carvalho1704/recurs%C3%A3o-e-pilhas-43fcd1408a4a)
+
+## CAP4: Quicksort
+
+É um algoritmo que ordena uma lista ou array. Embora seja similar à ordenação por seleção, é mais eficaz, pois utiliza a técnica de divisão e conquista, que é muito útil para otimizar o processo de ordenação.
+
+ - **01_sum_recursive.py e 02_count_recursive.py:** demonstram como recursão se encaixa nessa técnica.
+
+ - **03_quicksort.py:** demonstra o funcionamento.
+
+Para mais informações, acesse: [Medium.com](https://medium.com/@lucase.carvalho1704/recursão-e-pilhas-43fcd1408a4a)
