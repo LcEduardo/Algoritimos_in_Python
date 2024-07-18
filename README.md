@@ -14,6 +14,14 @@ Baseado no livro **Entendendo Algoritmos** de *Aditya Y.Bhargava*.
     2. Quicksort
 5. CAP5 - Tabela hash
 6. CAP6 - Pesquisa em largura
+    1. Grafos
+    2. Filas 
+7. CAP7 - Algoritmo de Dijkstra
+    1. Grafos Ponderados
+8. CAP8 - Algoritmos Gulosos
+    1. Algoritmo de aproximação
+    2. NP-completos
+
 
 ## CAP1: Pesquisa Binária
 
@@ -45,6 +53,17 @@ Para mais informações, acesse: [Medium.com](https://medium.com/@lucase.carvalh
 
  - **01_sum_recursive.py e 02_count_recursive.py:** demonstram como recursão se encaixa nessa técnica.
 
- - **03_quicksort.py:** demonstra o funcionamento.
+ - **03_quicksort.py:** demonstra o funcionamento.
 
 Para mais informações, acesse: [Medium.com](https://medium.com/@lucase.carvalho1704/recursão-e-pilhas-43fcd1408a4a)
+
+## CAP5: Tabela Hash
+
+Tabelas hash são estruturas de dados que armazenam pares de chave-valor usando uma função hash para calcular o índice de armazenamento no array. Isso permite uma recuperação de dados rápida, com complexidade média de O(1) para operações de busca, inserção e exclusão, se a função hash distribuir as chaves uniformemente. Problemas como colisões podem ocorrer quando duas chaves geram o mesmo índice, mas podem ser resolvidos com técnicas como encadeamento e endereçamento aberto. Apesar desses desafios, tabelas hash são amplamente usadas em aplicações devido à sua eficiência e alto desempenho.
+
+ - **01_function_hash.py:** como criar uma tabela hash em py
+ - **02_function_hash.py:** outra maneira de declarar tabela hash.
+ - **03_fruit_hash_tables.py:** exemplo prático.
+ - **04_check_voter.py:** exemplo prático.
+
+ Para mais informações acesse: [Medium.com](em criação)
