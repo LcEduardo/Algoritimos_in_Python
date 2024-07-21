@@ -21,6 +21,9 @@ Baseado no livro **Entendendo Algoritmos** de *Aditya Y.Bhargava*.
 8. CAP8 - Algoritmos Gulosos
     1. Algoritmo de aproximação
     2. NP-completos
+9. CAP9 - Programação dinâmica
+    1. Maior substring comum
+    2. Maior subsquência comum
 
 
 ## CAP1: Pesquisa Binária
