@@ -89,7 +89,7 @@ Um modelo de grafos é um conjunto de *conexões*.
 
 **Por exemplo:** Eu devo dinheiro para o Arthur, que deve dinheiro para o Luiz, e o Andrei deve dinheiro para o Luiz.
 
-![[grafos2.png]]
+![[grafos1.png]]
 
 Com grafos temos um modelo para representar quem deve dinheiro a quem. Assim, ele fornece uma maneira de modelar como eventos diferentes estão conectados entre si. 
 
